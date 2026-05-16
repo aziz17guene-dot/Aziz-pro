@@ -1,0 +1,95 @@
+{
+  "name": "Aziz-Pro - Gestion Boutique",
+  "short_name": "Aziz-Pro",
+  "description": "Application complète de gestion de supérette avec point de vente (POS), gestion de stock, clients et finances",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192' rx='42'/><path fill='%23fbbf24' d='M42 78h108l-9 66a12 12 0 0 1-12 10.5H63a12 12 0 0 1-12-10.5L42 78z'/><path stroke='%23fbbf24' stroke-width='10.5' stroke-linecap='round' d='M66 78v-18a30 30 0 0 1 60 0v18' fill='none'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%232563eb' width='512' height='512' rx='112'/><path fill='%23fbbf24' d='M112 208h288l-24 176a32 32 0 0 1-32 28H168a32 32 0 0 1-32-28L112 208z'/><path stroke='%23fbbf24' stroke-width='28' stroke-linecap='round' d='M176 208V144a80 80 0 0 1 160 0v64' fill='none'/><text x='256' y='380' font-family='Inter,Arial' font-size='48' font-weight='900' text-anchor='middle' fill='%230f172a'>AZ</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "purpose": "any maskable"
+    }
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' x2='1' y1='0' y2='1'><stop offset='0' stop-color='%232563eb'/><stop offset='1' stop-color='%230f172a'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><path d='M14 26h36l-3 22a4 4 0 0 1-4 3.5H21a4 4 0 0 1-4-3.5L14 26z' fill='%23fbbf24'/><path d='M22 26v-6a10 10 0 0 1 20 0v6' fill='none' stroke='%23fbbf24' stroke-width='3.5' stroke-linecap='round'/></svg>",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192' rx='42'/><path fill='%23fbbf24' d='M42 78h108l-9 66a12 12 0 0 1-12 10.5H63a12 12 0 0 1-12-10.5L42 78z'/><path stroke='%23fbbf24' stroke-width='10.5' stroke-linecap='round' d='M66 78v-18a30 30 0 0 1 60 0v18' fill='none'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%232563eb' width='512' height='512' rx='112'/><path fill='%23fbbf24' d='M112 208h288l-24 176a32 32 0 0 1-32 28H168a32 32 0 0 1-32-28L112 208z'/><path stroke='%23fbbf24' stroke-width='28' stroke-linecap='round' d='M176 208V144a80 80 0 0 1 160 0v64' fill='none'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Ouvrir Caisse",
+      "short_name": "Caisse",
+      "description": "Accès direct au point de vente",
+      "url": "./?tab=pos",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192' rx='42'/><path fill='%23fbbf24' d='M42 78h108l-9 66a12 12 0 0 1-12 10.5H63a12 12 0 0 1-12-10.5L42 78z'/></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Vérifier Stock",
+      "short_name": "Stock",
+      "description": "Consulter l'inventaire",
+      "url": "./?tab=stock",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%235b21b6' width='192' height='192' rx='42'/><text x='96' y='120' font-family='Arial' font-size='80' font-weight='900' text-anchor='middle' fill='%23ffffff'>📦</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "./",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
